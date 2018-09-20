@@ -6,7 +6,7 @@ To use the codes for any other usage than academic please contact me at ytocker@
 
 DSPB is a novel method for video foreground/background separation using static cameras.
 The method exploits pixel correlations, where each allegedly represents a static light source, to reconstruct the scene of
-how it would look like affected only by light sources, the background. Foreground objects by there nature are objects the pass through the scene, therefore the act a stochastoc disturbance, rather than something the can be modeled by a light source.
+how it would look like affected only by light sources, the background. Foreground objects by there nature are objects that pass through the scene, therefore they act as a stochastoc disturbance, rather than something that can be modeled by a light source.
 Since video analysis is dealing with huge amounts of data, most mwthods described in the literature are computationally exhaustive making algorithms output an offline analysis.
 Some methods are much faster and work online, but they usually serve as an anomlay detection sysytem that detects many outliers in the prescene of illumination changed (sudden or gradual).
 Our model is physically derived from the illumination model of the scene, yielding robustness to illumination changes.
